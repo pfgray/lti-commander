@@ -1,0 +1,10 @@
+{
+  "@context" : "http://purl.imsglobal.org/ctx/lis/v2/LineItem",
+  "@type" : "LineItem",
+  "label" : "My LOL activity",
+  "reportingMethod" : "totalScore",
+  "assignedActivity" : {
+    "activityId" : "lololol"
+  },
+  "results" : "http://ltiapps.net/test/tc-outcomes2.php/c7f4544c860918acbf983b385fd44e8e/S3294476/lineitems/results"
+}

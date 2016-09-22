@@ -1,0 +1,35 @@
+{
+  "@context" : [
+    "http://purl.imsglobal.org/ctx/lis/v2p1/Result",
+    {
+      "res" : "http://purl.imsglobal.org/vocab/lis/v2/outcomes#"
+    }
+  ],
+  "@type" : "LISResult",
+  "@id" : "http://lms.example.com/sections/2923/gradebook/items/1/results/43",
+  "resultOf" : "http://lms.example.com/sections/2923/gradebook/items/1",
+  "resultAgent" : {
+    "@type" : "Person",
+    "@id" : "http://server.example.com/persons/54062",
+    "userId" : "54062"
+  },
+  "gradedBy" : {
+    "@type" : "Person",
+    "@id" : "http://server.example.com/persons/1493",
+    "userId" : "1493"
+  },
+  "comment" : "Nice work!",
+  "normalScore" : 42,
+  "extraCreditScore" : 1,
+  "penaltyScore" : 0,
+  "totalScore" : 43,
+  "resultScore" : "43",
+  "resultScoreConstraints" : {
+    "@type" : "NumericLimits",
+    "normalMaximum" : 50,
+    "extraCreditMaximum" : 5,
+    "totalMaximum" : 55
+  },
+  "timestamp" : "2014-12-15T11:07:06+00:00",
+  "resultStatus" : "res:Completed"
+}
